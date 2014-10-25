@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.1.0">
+    <infoTributaria>
+        <ambiente>1</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>Transtelco SA.</razonSocial>
+        <nombreComercial>Transtelco S.A.</nombreComercial>
+        <ruc>1791931424001</ruc>
+        <claveAcceso>0709201401179193142400110010015075634501410112112</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>001</estab>
+        <ptoEmi>001</ptoEmi>
+        <secuencial>507563450</secuencial>
+        <dirMatriz>Av. 10 de Agosto N37-288 y Villalengua</dirMatriz>
+    </infoTributaria>
+    <infoFactura>
+        <fechaEmision>07/09/2014</fechaEmision>
+        <dirEstablecimiento>Av. 10 de Agosto N37-288 y Villalengua</dirEstablecimiento>
+        <contribuyenteEspecial>001</contribuyenteEspecial>
+        <obligadoContabilidad>SI</obligadoContabilidad>
+        <tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+        <razonSocialComprador>Rodrigo  Vallejo</razonSocialComprador>
+        <identificacionComprador>1716368251</identificacionComprador>
+        <totalSinImpuestos>19.00</totalSinImpuestos>
+        <totalDescuento>0</totalDescuento>
+        <totalConImpuestos>
+            <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>2</codigoPorcentaje>
+                <baseImponible>19.00</baseImponible>
+                <tarifa>12</tarifa>
+                <valor>2.28</valor>
+            </totalImpuesto>
+        </totalConImpuestos>
+        <propina>0</propina>
+        <importeTotal>21.28</importeTotal>
+        <moneda>DOLAR</moneda>
+    </infoFactura>
+    <detalles>
+        <detalle>
+            <codigoPrincipal>COC01</codigoPrincipal>
+            <codigoAuxiliar>COCA01</codigoAuxiliar>
+            <descripcion>Coca Cola</descripcion>
+            <cantidad>1</cantidad>
+            <precioUnitario>1.00</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>1.00</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>2</codigoPorcentaje>
+                    <tarifa>12.00</tarifa>
+                    <baseImponible>1.00</baseImponible>
+                    <valor>0.12</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>CGO1</codigoPrincipal>
+            <codigoAuxiliar>586e</codigoAuxiliar>
+            <descripcion>Agua Mineral</descripcion>
+            <cantidad>12</cantidad>
+            <precioUnitario>1.50</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>18.00</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>2</codigoPorcentaje>
+                    <tarifa>12.00</tarifa>
+                    <baseImponible>18.00</baseImponible>
+                    <valor>2.16</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+    </detalles>
+    <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="xmldsig-1da44e49-4776-4a96-9fc3-0b98b1af107a"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference URI="#xmldsig-1da44e49-4776-4a96-9fc3-0b98b1af107a-keyinfo"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>ed/o+z6jW2WwSbpYY1w88gdj4EhGQml9YRT2ejsPFsQ=</ds:DigestValue></ds:Reference><ds:Reference Id="xmldsig-1da44e49-4776-4a96-9fc3-0b98b1af107a-ref0" URI="#comprobante"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>jlc8wfX7p211Y1gEy95EfldiRR8yI/Tj7CRONOj/1Ns=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xmldsig-1da44e49-4776-4a96-9fc3-0b98b1af107a-signedprops"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>7yhtIqKvTGtw5cbRx2IbN2q9sU7V4/2xKpDf/+ep2u4=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="xmldsig-1da44e49-4776-4a96-9fc3-0b98b1af107a-sigvalue">MuDe1FR5udf+Ajkc6eArYErR/cqVUqCkZNi6b3HwmBkJKOfNKsFezAKyHJuJ7Rg6KcwsMd0c3Qv9gptNExzbDKYvjZHJPkC8/VtgRSA6KwJElVBsjB15VNDsNzoDhMPcWOepuCNBvF7vfCr60HWEyBo8CU/TMaEV2dfjp864yi4A19lTfI/jqwhBKBsLkcAffHAN2v16chwb0yJRRNgaNisFvSndCHO6gYsad68MjzqobnAe3awGFq6oEg95uz5SQUK2ni5QD6d9Q5trB+uMuCGhtWxBiREl0qTW3ZhgUH/zNGS/LbwJkKFzII3IK3Q4RKvj8gSOb+KR4EUg1s2wBQ==</ds:SignatureValue><ds:KeyInfo Id="xmldsig-1da44e49-4776-4a96-9fc3-0b98b1af107a-keyinfo"><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#" Target="#xmldsig-1da44e49-4776-4a96-9fc3-0b98b1af107a"><xades:SignedProperties Id="xmldsig-1da44e49-4776-4a96-9fc3-0b98b1af107a-signedprops"><xades:SignedSignatureProperties><xades:SigningTime>2014-09-07T12:49:48.142-05:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>lpevdtM5InvNcQQsSLDyCO4tOVuvdLZr61Vv4V21aiQ=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=AC BANCO CENTRAL DEL ECUADOR,L=QUITO,OU=ENTIDAD DE CERTIFICACION DE INFORMACION-ECIBCE,O=BANCO CENTRAL DEL ECUADOR,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1312954325</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#"><xades:Description>SRI - Obiectumclaro Library</xades:Description><xades:MimeType>text/xml</xades:MimeType><xades:Encoding>UTF-8</xades:Encoding></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature>
+</factura>

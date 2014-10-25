@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="comprobante" version="1.1.0">
+    <infoTributaria>
+        <ambiente>1</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>Transtelco SA.</razonSocial>
+        <nombreComercial>Transtelco S.A.</nombreComercial>
+        <ruc>1791931424001</ruc>
+        <claveAcceso>0709201401179193142400110010015075634501410112112</claveAcceso>
+        <codDoc>01</codDoc>
+        <estab>001</estab>
+        <ptoEmi>001</ptoEmi>
+        <secuencial>507563450</secuencial>
+        <dirMatriz>Av. 10 de Agosto N37-288 y Villalengua</dirMatriz>
+    </infoTributaria>
+    <infoFactura>
+        <fechaEmision>07/09/2014</fechaEmision>
+        <dirEstablecimiento>Av. 10 de Agosto N37-288 y Villalengua</dirEstablecimiento>
+        <contribuyenteEspecial>001</contribuyenteEspecial>
+        <obligadoContabilidad>SI</obligadoContabilidad>
+        <tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+        <razonSocialComprador>Rodrigo  Vallejo</razonSocialComprador>
+        <identificacionComprador>1716368251</identificacionComprador>
+        <totalSinImpuestos>19.00</totalSinImpuestos>
+        <totalDescuento>0</totalDescuento>
+        <totalConImpuestos>
+            <totalImpuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>2</codigoPorcentaje>
+                <baseImponible>19.00</baseImponible>
+                <tarifa>12</tarifa>
+                <valor>2.28</valor>
+            </totalImpuesto>
+        </totalConImpuestos>
+        <propina>0</propina>
+        <importeTotal>21.28</importeTotal>
+        <moneda>DOLAR</moneda>
+    </infoFactura>
+    <detalles>
+        <detalle>
+            <codigoPrincipal>COC01</codigoPrincipal>
+            <codigoAuxiliar>COCA01</codigoAuxiliar>
+            <descripcion>Coca Cola</descripcion>
+            <cantidad>1</cantidad>
+            <precioUnitario>1.00</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>1.00</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>2</codigoPorcentaje>
+                    <tarifa>12.00</tarifa>
+                    <baseImponible>1.00</baseImponible>
+                    <valor>0.12</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+        <detalle>
+            <codigoPrincipal>CGO1</codigoPrincipal>
+            <codigoAuxiliar>586e</codigoAuxiliar>
+            <descripcion>Agua Mineral</descripcion>
+            <cantidad>12</cantidad>
+            <precioUnitario>1.50</precioUnitario>
+            <descuento>0</descuento>
+            <precioTotalSinImpuesto>18.00</precioTotalSinImpuesto>
+            <impuestos>
+                <impuesto>
+                    <codigo>2</codigo>
+                    <codigoPorcentaje>2</codigoPorcentaje>
+                    <tarifa>12.00</tarifa>
+                    <baseImponible>18.00</baseImponible>
+                    <valor>2.16</valor>
+                </impuesto>
+            </impuestos>
+        </detalle>
+    </detalles>
+</factura>
